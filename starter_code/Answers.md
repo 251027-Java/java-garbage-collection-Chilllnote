@@ -15,3 +15,7 @@
 |Serial| 1 | 19.477ms | 99.71%|
 |G1GC| 4 | 1.600ms | 99.94%|
 |ZGC| 4 | 0.046ms | 99.996%|
+
+Final questions:
+
+Yes G1GC did meet the target. However, compared to ZGC, the throughput, and latency times are much lower. 
