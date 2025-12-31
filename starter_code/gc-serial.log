@@ -1,0 +1,36 @@
+[0.008s][info][gc,init] CardTable entry size: 512
+[0.009s][info][gc     ] Using Serial
+[0.010s][info][gc,init] Version: 25.0.1+8-LTS-27 (release)
+[0.010s][info][gc,init] CPUs: 16 total, 16 available
+[0.010s][info][gc,init] Memory: 16167M
+[0.010s][info][gc,init] Large Page Support: Disabled
+[0.010s][info][gc,init] NUMA Support: Disabled
+[0.010s][info][gc,init] Compressed Oops: Enabled (32-bit)
+[0.010s][info][gc,init] Heap Min Capacity: 8M
+[0.010s][info][gc,init] Heap Initial Capacity: 254M
+[0.010s][info][gc,init] Heap Max Capacity: 256M
+[0.010s][info][gc,init] Pre-touch: Disabled
+[0.019s][info][gc,metaspace] CDS archive(s) mapped at: [0x000000009c000000-0x000000009cdd0000-0x000000009cdd0000), size 14483456, SharedBaseAddress: 0x000000009c000000, ArchiveRelocationMode: 1.
+[0.019s][info][gc,metaspace] Compressed class space mapped at: 0x000000009d000000-0x00000000dd000000, reserved size: 1073741824
+[0.019s][info][gc,metaspace] UseCompressedClassPointers 1, UseCompactObjectHeaders 0
+[0.019s][info][gc,metaspace] Narrow klass pointer bits 32, Max shift 3
+[0.019s][info][gc,metaspace] Narrow klass base: 0x000000009c000000, Narrow klass shift: 0
+[0.019s][info][gc,metaspace] Encoding Range: [0x000000009c000000 - 0x000000019c000000), (4294967296 bytes)
+[0.019s][info][gc,metaspace] Klass Range:    [0x000000009c010000 - 0x00000000dd000000), (1090453504 bytes)
+[0.019s][info][gc,metaspace] Klass ID Range:  [65536 - 1090519033) (1090453497)
+[0.019s][info][gc,metaspace] Protection zone: [0x000000009c000000 - 0x000000009c010000), (65536 bytes)
+[6.470s][info][gc,start    ] GC(0) Pause Young (Allocation Failure)
+[6.489s][info][gc,heap     ] GC(0) DefNew: 68675K(78016K)->8581K(78016K) Eden: 68675K(69376K)->0K(69376K) From: 0K(8640K)->8581K(8640K)
+[6.489s][info][gc,heap     ] GC(0) Tenured: 1173K(173440K)->57494K(173440K)
+[6.489s][info][gc,metaspace] GC(0) Metaspace: 458K(640K)->458K(640K) NonClass: 438K(512K)->438K(512K) Class: 20K(128K)->20K(128K)
+[6.490s][info][gc          ] GC(0) Pause Young (Allocation Failure) 68M->64M(245M) 19.477ms
+[6.490s][info][gc,cpu      ] GC(0) User=0.03s Sys=0.00s Real=0.02s
+[6.795s][info][gc,exit     ] Heap
+[6.795s][info][gc,exit     ]  DefNew     total 78016K, used 16476K [0x00000000f0000000, 0x00000000f54a0000, 0x00000000f5550000)
+[6.795s][info][gc,exit     ]   eden space 69376K,  11% used [0x00000000f0000000, 0x00000000f07b5ba0, 0x00000000f43c0000)
+[6.796s][info][gc,exit     ]   from space 8640K,  99% used [0x00000000f4c30000, 0x00000000f54915d8, 0x00000000f54a0000)
+[6.796s][info][gc,exit     ]   to   space 8640K,   0% used [0x00000000f43c0000, 0x00000000f43c0000, 0x00000000f4c30000)
+[6.796s][info][gc,exit     ]  Tenured    total 173440K, used 57494K [0x00000000f5550000, 0x00000000ffeb0000, 0x0000000100000000)
+[6.796s][info][gc,exit     ]   the  space 173440K,  33% used [0x00000000f5550000, 0x00000000f8d75a10, 0x00000000ffeb0000)
+[6.796s][info][gc,exit     ]  Metaspace       used 566K, committed 768K, reserved 1114112K
+[6.796s][info][gc,exit     ]   class space    used 31K, committed 128K, reserved 1048576K

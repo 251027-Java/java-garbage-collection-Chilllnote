@@ -24,6 +24,16 @@ public class MemoryLabApp {
 
         // Your code here:
 
+        try {
+            for (int i = 0; i < 300; i++) { // Attempt to allocate up to 300 MB
+                memoryBlocks.add(new byte[1024 * 1024]); // Allocate 1 MB
+                printMemoryStatus("After allocating " + (i + 1) + " MB");
+                Thread.sleep(100); // Small delay for observation
+            }
+        } catch (OutOfMemoryError e) {
+            System.err.println("OutOfMemoryError caught: " + e.getMessage());
+        }
+
         printMemoryStatus("Final");
     }
 
